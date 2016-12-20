@@ -65,6 +65,8 @@ ITEM_PIPELINES = {
    'xkcd.pipelines.XkcdPipeline': 1,
 }
 
+IMAGES_STORE = './xkcd'
+
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
 # NOTE: AutoThrottle will honour the standard settings for concurrency and delay
